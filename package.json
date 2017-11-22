@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "deps": "dependency-check --entry ./index.js . && dependency-check . --extra --no-dev --entry ./index.js"
+  },
+  "name": "poll-thing",
+  "description": "poll an async thing, emit an event",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "url": "git://github.com/laduke/poll-thing.git"
+  },
+  "devDependencies": {
+    "dependency-check": "^2.9.1",
+    "request": "^2.83.0"
+  },
+  "dependencies": {
+  }
+}
